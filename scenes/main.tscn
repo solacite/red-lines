@@ -1,8 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://ck07iefgbmg2f"]
+[gd_scene load_steps=3 format=3 uid="uid://ck07iefgbmg2f"]
 
 [ext_resource type="PackedScene" uid="uid://c6ovxdkjngnvp" path="res://scenes/subway_car.tscn" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://1cd6lxp85iu3" path="res://scenes/camera_shake.gd" id="2_0wfyh"]
 
 [node name="Main" type="Node3D"]
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.0418582, 0, 0.999124, 0, 1, 0, -0.999124, 0, -0.0418582, 37.0456, 48.8187, 12.9766)
+
 [node name="subway_car" parent="." instance=ExtResource("1_o5qli")]
-transform = Transform3D(0.775848, 0, -0.63092, -0.260916, 0.910482, -0.320852, 0.574441, 0.413549, 0.706396, 129.541, 112.882, -265.531)
+transform = Transform3D(-0.0865429, -0.353087, -0.931579, -0.260916, 0.910482, -0.320852, 0.961474, 0.215297, -0.170922, -24.7558, 23.8934, -8.48583)
+
+[node name="CameraShake" type="Node3D" parent="."]
+script = ExtResource("2_0wfyh")
+
+[node name="Camera3D" type="Camera3D" parent="CameraShake"]
+transform = Transform3D(0.976601, -0.0831788, -0.198322, -0.0865357, 0.692237, -0.716464, 0.19688, 0.716861, 0.668841, -25.2305, 17.2614, 23.1313)

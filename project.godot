@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="red lines"
+run/main_scene="uid://ck07iefgbmg2f"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
 [editor_plugins]
