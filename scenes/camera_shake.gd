@@ -1,7 +1,7 @@
 extends Node3D
 
 @export var shake_intensity: float = 0.2
-@export var shake_duration: float = 0.15
+@export var shake_duration: float = 0.05
 
 var time_since_shake_start = 0.0
 

@@ -1,9 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://ck07iefgbmg2f"]
+[gd_scene load_steps=5 format=3 uid="uid://ck07iefgbmg2f"]
 
 [ext_resource type="PackedScene" uid="uid://c6ovxdkjngnvp" path="res://scenes/subway_car.tscn" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://1cd6lxp85iu3" path="res://scenes/camera_shake.gd" id="2_0wfyh"]
 
+[sub_resource type="Sky" id="Sky_0wfyh"]
+
+[sub_resource type="Environment" id="Environment_0wfyh"]
+background_mode = 2
+background_energy_multiplier = 5.95
+sky = SubResource("Sky_0wfyh")
+ambient_light_color = Color(0.717647, 0.717647, 0.941176, 1)
+ambient_light_energy = 0.0
+reflected_light_source = 2
+tonemap_mode = 2
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(1, 0.197016, 0.264082, 1)
+fog_light_energy = 0.66
+fog_density = 1.0
+
 [node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_0wfyh")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.0418582, 0, 0.999124, 0, 1, 0, -0.999124, 0, -0.0418582, 37.0456, 48.8187, 12.9766)
@@ -15,4 +34,4 @@ transform = Transform3D(-0.0865429, -0.353087, -0.931579, -0.260916, 0.910482, -
 script = ExtResource("2_0wfyh")
 
 [node name="Camera3D" type="Camera3D" parent="CameraShake"]
-transform = Transform3D(0.976601, -0.0831788, -0.198322, -0.0865357, 0.692237, -0.716464, 0.19688, 0.716861, 0.668841, -25.2305, 17.2614, 23.1313)
+transform = Transform3D(0.976601, -0.0831788, -0.198322, -0.0865357, 0.692237, -0.716464, 0.19688, 0.716861, 0.668841, -18.0812, 18.7074, 23.1313)
