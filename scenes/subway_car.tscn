@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=3 uid="uid://c6ovxdkjngnvp"]
+
+[ext_resource type="PackedScene" uid="uid://2f7r6g6qe6yd" path="res://assets/subway_car.glb" id="1_app3j"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_app3j"]
+cull_mode = 2
+albedo_color = Color(0.801193, 0.775005, 0.83673, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rf2ju"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8hkib"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_32yhw"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m0vqx"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vu7in"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ykp5"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hkrh1"]
+cull_mode = 2
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[node name="subway_car" instance=ExtResource("1_app3j")]
+
+[node name="Floor_002" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_app3j")
+
+[node name="Ads_004" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_rf2ju")
+
+[node name="Ads_003" parent="." index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8hkib")
+
+[node name="Plane_003" parent="." index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_32yhw")
+
+[node name="Backing_001" parent="." index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_m0vqx")
+
+[node name="Chair_003" parent="." index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_vu7in")
+
+[node name="Cushion_003" parent="." index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_3ykp5")
+
+[node name="Chair_002" parent="." index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_hkrh1")
