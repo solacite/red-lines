@@ -1,38 +1,152 @@
-[gd_scene load_steps=10 format=3 uid="uid://c6ovxdkjngnvp"]
+[gd_scene load_steps=26 format=3 uid="uid://c6ovxdkjngnvp"]
 
 [ext_resource type="PackedScene" uid="uid://2f7r6g6qe6yd" path="res://assets/subway_car.glb" id="1_app3j"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_app3j"]
 cull_mode = 2
-albedo_color = Color(0.801193, 0.775005, 0.83673, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.615686, 0.580392, 0.670588, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rf2ju"]
 cull_mode = 2
-albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.729412, 0.701961, 0.776471, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8hkib"]
 cull_mode = 2
-albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.729412, 0.701961, 0.776471, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_32yhw"]
 cull_mode = 2
-albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.729412, 0.701961, 0.776471, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m0vqx"]
 cull_mode = 2
-albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.615686, 0.580392, 0.670588, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vu7in"]
 cull_mode = 2
-albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.615686, 0.580392, 0.670588, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ykp5"]
 cull_mode = 2
-albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.513726, 0.478431, 0.572549, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hkrh1"]
 cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.615686, 0.580392, 0.670588, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ecngs"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.514937, 0.478539, 0.570718, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a2xie"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.580392, 0.541176, 0.631373, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c6sgl"]
+transparency = 1
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.372549, 0.337255, 0.419608, 0.560784)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wavli"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
 albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bk0rs"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1u7t2"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sl6ck"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6aerb"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6xwab"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x8nix"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8, 0.776471, 0.835294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u1hg2"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.58039, 0.541556, 0.633072, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0of7x"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.493594, 0.454677, 0.543676, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r2o44"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.615337, 0.578505, 0.668699, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5hy6p"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.729412, 0.701961, 0.776471, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64x7m"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.731201, 0.701224, 0.775558, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_32e7q"]
+transparency = 1
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.371968, 0.338065, 0.418392, 0.560784)
 
 [node name="subway_car" instance=ExtResource("1_app3j")]
 
@@ -59,3 +173,51 @@ surface_material_override/0 = SubResource("StandardMaterial3D_3ykp5")
 
 [node name="Chair_002" parent="." index="7"]
 surface_material_override/0 = SubResource("StandardMaterial3D_hkrh1")
+
+[node name="Cushion_002" parent="." index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ecngs")
+
+[node name="Walls_003" parent="." index="9"]
+surface_material_override/0 = SubResource("StandardMaterial3D_a2xie")
+
+[node name="Walls_002" parent="." index="10"]
+surface_material_override/0 = SubResource("StandardMaterial3D_c6sgl")
+
+[node name="Cylinder_013" parent="." index="11"]
+surface_material_override/0 = SubResource("StandardMaterial3D_wavli")
+
+[node name="Cylinder_012" parent="." index="12"]
+surface_material_override/0 = SubResource("StandardMaterial3D_bk0rs")
+
+[node name="Cylinder_011" parent="." index="13"]
+surface_material_override/0 = SubResource("StandardMaterial3D_1u7t2")
+
+[node name="Cylinder_010" parent="." index="14"]
+surface_material_override/0 = SubResource("StandardMaterial3D_sl6ck")
+
+[node name="Cylinder_009" parent="." index="15"]
+surface_material_override/0 = SubResource("StandardMaterial3D_6aerb")
+
+[node name="Cylinder_008" parent="." index="16"]
+surface_material_override/0 = SubResource("StandardMaterial3D_6xwab")
+
+[node name="Cylinder_007" parent="." index="17"]
+surface_material_override/0 = SubResource("StandardMaterial3D_x8nix")
+
+[node name="Plane_005" parent="." index="18"]
+surface_material_override/0 = SubResource("StandardMaterial3D_u1hg2")
+
+[node name="Door Slice_001" parent="." index="19"]
+surface_material_override/0 = SubResource("StandardMaterial3D_0of7x")
+
+[node name="Floor_003" parent="." index="20"]
+surface_material_override/0 = SubResource("StandardMaterial3D_r2o44")
+
+[node name="Ads_005" parent="." index="21"]
+surface_material_override/0 = SubResource("StandardMaterial3D_5hy6p")
+
+[node name="Plane_004" parent="." index="22"]
+surface_material_override/0 = SubResource("StandardMaterial3D_64x7m")
+
+[node name="Plane_006" parent="." index="23"]
+surface_material_override/0 = SubResource("StandardMaterial3D_32e7q")

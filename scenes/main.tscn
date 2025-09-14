@@ -5,4 +5,4 @@
 [node name="Main" type="Node3D"]
 
 [node name="subway_car" parent="." instance=ExtResource("1_o5qli")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.541, 112.882, -265.531)
+transform = Transform3D(0.775848, 0, -0.63092, -0.260916, 0.910482, -0.320852, 0.574441, 0.413549, 0.706396, 129.541, 112.882, -265.531)
