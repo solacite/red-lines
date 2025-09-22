@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://ck07iefgbmg2f"]
 
 [ext_resource type="Script" uid="uid://1cd6lxp85iu3" path="res://scenes/camera_shake.gd" id="2_0wfyh"]
-[ext_resource type="PackedScene" uid="uid://bkatn26x8ssrf" path="res://scenes/subway_car_0_side.tscn" id="2_sugp2"]
+[ext_resource type="PackedScene" uid="uid://c1hlb0r7dgsya" path="res://assets/subway_car_textures.glb" id="2_sugp2"]
 
 [sub_resource type="Sky" id="Sky_0wfyh"]
 
@@ -14,7 +14,6 @@ reflected_light_source = 2
 tonemap_mode = 2
 fog_enabled = true
 fog_mode = 1
-fog_light_energy = 0.66
 fog_density = 0.4188
 
 [node name="Main" type="Node3D"]
@@ -23,14 +22,16 @@ fog_density = 0.4188
 environment = SubResource("Environment_0wfyh")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.337006, 0.79523, 0.50402, -0.798647, 0.0420379, -0.60033, -0.498589, -0.604849, 0.62094, 37.0456, 66.6511, -16.0697)
-visible = false
+transform = Transform3D(0.576434, 0.340005, -0.743048, -0.814463, 0.312651, -0.488773, 0.0661298, 0.88693, 0.457145, 37.0456, 66.6511, -16.0697)
+light_color = Color(0.856494, 3.65794e-06, 8.66354e-07, 1)
+light_energy = 0.03
 
 [node name="CameraShake" type="Node3D" parent="."]
+transform = Transform3D(-0.186181, 0, -0.982515, 0, 1, 0, 0.982515, 0, -0.186181, -30.8813, 80.2722, -72.1306)
 script = ExtResource("2_0wfyh")
 
 [node name="Camera3D" type="Camera3D" parent="CameraShake"]
-transform = Transform3D(0.976601, -0.0831788, -0.198322, -0.0865357, 0.692237, -0.716464, 0.19688, 0.716861, 0.668841, -18.0812, 18.7074, 23.1313)
+transform = Transform3D(0.87614, -0.077842, 0.475731, 0.159003, 0.978312, -0.132754, -0.45508, 0.191954, 0.869515, 10.9641, 0.105804, 2.22379)
 
-[node name="subway_car_0side" parent="." instance=ExtResource("2_sugp2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.874264, 56.0201, 1.84123)
+[node name="subway_car_textures" parent="." instance=ExtResource("2_sugp2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.48941, 72.6764, -52.2212)

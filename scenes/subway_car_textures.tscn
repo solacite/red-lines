@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://clvpn62o8lhp"]
+
+[ext_resource type="PackedScene" uid="uid://c1hlb0r7dgsya" path="res://assets/subway_car_textures.glb" id="1_iurt6"]
+
+[node name="subway_car_textures" instance=ExtResource("1_iurt6")]
