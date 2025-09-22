@@ -1,0 +1,104 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyc7qqcrxgfde"]
+
+[ext_resource type="PackedScene" uid="uid://kc8qwiabeg5y" path="res://assets/subway_car_2side.glb" id="1_dcjpr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6th7"]
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+
+[node name="subway_car_2side" instance=ExtResource("1_dcjpr")]
+
+[node name="Floor_002" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Ads_004" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Ads_003" parent="." index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_003" parent="." index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Backing_001" parent="." index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Chair_003" parent="." index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cushion_003" parent="." index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Chair_002" parent="." index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cushion_002" parent="." index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Walls_003" parent="." index="9"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Walls_002" parent="." index="10"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_013" parent="." index="11"]
+transform = Transform3D(0.320322, 0, 0, 0, 0, -0.320322, 0, 0.320322, 0, 5.40021, 1.521, -0.401519)
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_012" parent="." index="12"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_011" parent="." index="13"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_010" parent="." index="14"]
+transform = Transform3D(0.320322, 0, 0, 0, 0, -0.320322, 0, 0.320322, 0, 5.40021, 9.47771, -0.401519)
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_009" parent="." index="15"]
+transform = Transform3D(0.320322, 0, 0, 0, 0, -0.320322, 0, 0.320322, 0, 5.40021, 9.47771, -3.51682)
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_008" parent="." index="16"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Cylinder_007" parent="." index="17"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_005" parent="." index="18"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Door Slice_001" parent="." index="19"]
+transform = Transform3D(0.177127, 0, 0, 0, 0.271994, 0, 0, 0, 0.264771, 22.2531, 1.521, 0.689294)
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Floor_003" parent="." index="20"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Ads_005" parent="." index="21"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_004" parent="." index="22"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_006" parent="." index="23"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_007" parent="." index="24"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_008" parent="." index="25"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_009" parent="." index="26"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_012" parent="." index="27"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_011" parent="." index="28"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
+
+[node name="Plane_010" parent="." index="29"]
+surface_material_override/0 = SubResource("StandardMaterial3D_o6th7")
